@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Aux from './hoc/Auxilary';
 import Layout from './components/Layout/Layout';
 import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
 

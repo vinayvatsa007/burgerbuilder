@@ -1,5 +1,6 @@
 import React from 'react';
-import classes from './BuildControls.css';
+// import classes from './BuildControls.css';
+import './BuildControls.css';
 import BuildControl from './BuildControl/BuildControl';
 
 const controls = [
@@ -8,10 +9,9 @@ const controls = [
     {Label:'Cheese', type:'cheese'},
     {Label:'Wheat', type:'wheat'}
 ];
-
-
+{/*<div className={classes.BuildControls}>*/}
 const buildControls = (porps)=> (
-        <div className={classes.BuildControls}>
+        <div className="BuildControls">
             {controls.map(ctrl => (
                 <BuildControl key={ctrl.label} label={ctrl.label} />
             ))}

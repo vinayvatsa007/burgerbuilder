@@ -4,10 +4,10 @@ import './BuildControls.css';
 import BuildControl from './BuildControl/BuildControl';
 
 const controls = [
-    {Label:'Salad', type:'salad'},
-    {Label:'Bacon', type:'bacon'},
-    {Label:'Cheese', type:'cheese'},
-    {Label:'Wheat', type:'wheat'}
+    {label:'Salad', type:'salad'},
+    {label:'Bacon', type:'bacon'},
+    {label:'Cheese', type:'cheese'},
+    {label:'Wheat', type:'wheat'}
 ];
 {/*<div className={classes.BuildControls}>*/}
 const buildControls = (porps)=> (

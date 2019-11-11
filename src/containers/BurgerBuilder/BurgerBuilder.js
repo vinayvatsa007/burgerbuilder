@@ -22,11 +22,28 @@ class BurgerBuilder extends Component {
             cheese:0,
             wheat:0
         },
-        totalPrice: 4
-
-
-
+        totalPrice: 4,
+        purchasable: false
     };
+
+    updatePurchaseState(ingredients){
+        // const ingredients = {...this.state.ingredients};
+        // console.log("ingredient object");
+        // console.log(ingredients);
+        // console.log("object keys - " + Object.keys(ingredients));
+
+        const sum = Object.keys(ingredients)
+            .map(igKey => {
+                // console.log("key- " + igKey);
+                return ingredients[igKey];
+            })
+            .reduce((sum,el)=> {
+                // console.log("sum=" + sum + ", el=" + el);
+                return sum + el;
+            },0);
+        this.setState({purchasable: sum > 0});
+    }
+
     addIngredientHandler = (type) => {
         const oldIngredientCount = this.state.ingredients[type];
         const updatedCount = oldIngredientCount + 1;
@@ -36,6 +53,7 @@ class BurgerBuilder extends Component {
         const oldPrice = this.state.totalPrice;
         const newPrice = oldPrice + priceAddition;
         this.setState({totalPrice:newPrice,ingredients:updatedIngredients});
+        this.updatePurchaseState(updatedIngredients);
     }
 
     removeIngredientHandler = (type) => {
@@ -50,6 +68,7 @@ class BurgerBuilder extends Component {
         const oldPrice = this.state.totalPrice;
         const newPrice = oldPrice - priceDecrease;
         this.setState({totalPrice:newPrice,ingredients:updatedIngredients});
+        this.updatePurchaseState(updatedIngredients);
 
     }
 // <div>Build Controls i.e. add/remove ingrediants</div>
@@ -70,6 +89,7 @@ class BurgerBuilder extends Component {
                     ingredientAdded = {this.addIngredientHandler}
                     ingredientRemoved = {this.removeIngredientHandler}
                     disabled={disabledInfo}
+                    purchasable={this.state.purchasable}
                     price={this.state.totalPrice}
                 />
             </Aux>

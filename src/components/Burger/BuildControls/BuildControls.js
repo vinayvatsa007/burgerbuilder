@@ -9,7 +9,6 @@ const controls = [
     {label:'Cheese', type:'cheese'},
     {label:'Wheat', type:'wheat'}
 ];
-{/*<div className={classes.BuildControls}>*/}
 const buildControls = (props)=> (
         <div className="BuildControls">
             <p>Current Price: <strong>{props.price.toFixed(2)}</strong> </p>
@@ -22,7 +21,10 @@ const buildControls = (props)=> (
                     disabled={props.disabled[ctrl.type]}
                 />
             ))}
-            <button className="OrderButton" disabled= {!props.purchasable} >ORDER NOW</button>
+            <button className="OrderButton"
+                    disabled= {!props.purchasable}
+                    onClick={props.ordered}
+            >ORDER NOW</button>
         </div>
     );
 export default buildControls;

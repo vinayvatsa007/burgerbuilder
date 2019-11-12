@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c9a9a2a-f8c3-4315-bbe2-587990a38a50" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.js" afterPath="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" afterPath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" afterPath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,8 +22,8 @@
       <file leaf-file-name="BurgerBuilder.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="143">
+              <caret line="93" column="50" lean-forward="false" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -30,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderSummary.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OrderSummary.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
@@ -45,8 +46,8 @@
       <file leaf-file-name="Modal.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/UI/Modal/Modal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="176">
+              <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -57,8 +58,8 @@
       <file leaf-file-name="Modal.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/UI/Modal/Modal.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="110">
+              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -86,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuildControls.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BuildControls.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="24" column="56" lean-forward="false" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+            <state relative-caret-position="150">
+              <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
               <folding>
                 <element signature="e#73#102#0" expanded="true" />
               </folding>
@@ -165,13 +166,13 @@
         <option value="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControl/BuildControl.js" />
         <option value="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.css" />
         <option value="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControl/BuildControl.css" />
-        <option value="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.js" />
         <option value="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" />
         <option value="$PROJECT_DIR$/src/components/UI/Model/Model.js" />
         <option value="$PROJECT_DIR$/src/components/UI/Modal/Modal.css" />
+        <option value="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" />
         <option value="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" />
         <option value="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" />
-        <option value="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" />
+        <option value="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.js" />
       </list>
     </option>
   </component>
@@ -383,6 +384,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Burger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BuildControls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="burgerbuilder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="burgerbuilder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -498,12 +525,12 @@
       <updated>1572597650147</updated>
       <workItem from="1572597655029" duration="598000" />
       <workItem from="1572616250876" duration="3181000" />
-      <workItem from="1572857110957" duration="61555000" />
+      <workItem from="1572857110957" duration="64246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65387000" />
+    <option name="totallyTimeSpent" value="68078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -856,6 +883,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Modal/Modal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Modal/Modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="93" column="50" lean-forward="false" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -866,56 +939,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="24" column="56" lean-forward="false" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+        <state relative-caret-position="150">
+          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
           <folding>
             <element signature="e#73#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Modal/Modal.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Modal/Modal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

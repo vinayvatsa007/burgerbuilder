@@ -19,12 +19,13 @@ const OrderSummary = (props)=> {
             <p>A delicious burger with the following ingredients:</p>
             <ul>
                 {ingredientSummary}
+                <p><strong>Total Price:{props.price}</strong></p>
                 <p>Continue to Checkout?</p>
             </ul>
             <Button btnType="Danger" clicked={props.purchaseCancelled} >CANCEL</Button>
             <Button btnType="Success" clicked={props.purchaseContinued} >CONTINUE</Button>
         </Aux>
 
-);
+    );
 }
 export default OrderSummary;

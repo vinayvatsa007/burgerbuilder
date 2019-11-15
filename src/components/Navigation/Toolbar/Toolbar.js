@@ -1,6 +1,6 @@
 import React from 'react';
 import './Toolbar.css';
-// import NavigationItems from '../NavigationItems/NavigationItems';
+import NavigationItems from '../NavigationItems/NavigationItems';
 // import DrawerToggle from '../SideDrawer/DrawerToggle/DrawerToggle';
 import Logo from '../../Logo/Logo';
 
@@ -10,7 +10,7 @@ const toolbar = (props) => (
         <div>Menu</div>
         <Logo />
         <nav>
-            ...
+            <NavigationItems/>
         </nav>
         {/*<DrawerToggle clicked={props.drawerToggleClicked}/>*/}
         {/*<Logo height="80%" />*/}

@@ -25,9 +25,13 @@
     transform: translateX(-100%);
 }
 
-
-@media (min-width: 500px) {
-    .SideDrawer {
-        display: none;
-    }
+.Logo {
+    height: 11%;
+    margin-bottom: 32px;
 }
+
+/*@media (min-width: 500px) {*/
+    /*.SideDrawer {*/
+        /*display: none;*/
+    /*}*/
+/*}*/

@@ -30,8 +30,8 @@
     margin-bottom: 32px;
 }
 
-/*@media (min-width: 500px) {*/
-    /*.SideDrawer {*/
-        /*display: none;*/
-    /*}*/
-/*}*/
+@media (min-width: 500px) {
+    .SideDrawer {
+        display: none;
+    }
+}

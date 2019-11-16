@@ -7,7 +7,7 @@ import Logo from '../../Logo/Logo';
 
 const toolbar = (props) => (
     <header className="Toolbar">
-        <div>Menu</div>
+        <div onClick={props.drawerToggleClicked}>Menu</div>
         <Logo height="80%"/>
         <nav>
             <NavigationItems/>

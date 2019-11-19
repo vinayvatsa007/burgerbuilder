@@ -12,9 +12,10 @@ const toolbar = (props) => (
         <DrawerToggle clicked={props.drawerToggleClicked}/>
         {/*<div onClick={props.drawerToggleClicked}>Menu</div>*/}
         {/*<Logo height="80%"/>*/}
-        <div className="Logo">
-            <Logo />
-        </div>
+        <Logo height="43px" width="56px" />
+{/*        <div className="Logo" style={{ backgroundColor:"#703b09"}}>
+            <Logo height="43px" width="56px" />
+        </div>*/}
         <nav className="DesktopOnly">
             <NavigationItems/>
         </nav>
